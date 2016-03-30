@@ -11,10 +11,10 @@ void main(string[] args) {
 
     foreach(string lib; libs) {
         if (lib.strip() != "")
-            commandLine ~= "-I" ~ lib;
+            commandLine ~= "-I" ~ lib; 
     }
     
-    commandLine ~= args[1];
+    commandLine ~= args[1..$];
 
     auto pid = spawnProcess(commandLine,
                 std.stdio.stdin,
