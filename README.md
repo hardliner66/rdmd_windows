@@ -12,4 +12,4 @@ To add imports, add an environment variable named D_INCLUDE_PATH. This should be
 To use arguments in your scripts, change the command line for the file association to:
 "C:\D\dmd2\windows\bin\rdmd_win.bat" "%1" %*
 
-Alternativly you can double click register_d_files.reg to register the handler with windows. (tested only on windows 10)
+Alternatively you can double click register_d_files.reg to register the handler with windows. (tested only on windows 10)
